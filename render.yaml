@@ -1,7 +1,8 @@
 services:
-- type: pserv
+- type: web
   name: mysql
-  plan: standard
+  plan: starter
+  region: frankfurt
   env: docker
   autoDeploy: false
   disk:
